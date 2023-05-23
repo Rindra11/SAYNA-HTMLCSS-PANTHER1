@@ -11,6 +11,7 @@ html{
 }
 body{
     background: linear-gradient(80deg, var(--blue-color),var(--black-color));
+    padding: 0;
 }
 
 :root{
@@ -153,4 +154,169 @@ li{
 .slider-text span a:hover {
     text-decoration: underline;
 }
-  
+/*contact*/
+#contact {
+    background-image: url(../IllustrationsLogo/Accueil/Pantherhome7.png);
+    background-size: cover;
+    padding: 30vh;
+}
+#contact .container{
+    border: none;
+    border-radius: 20vh;
+    padding: 50px;
+    background: linear-gradient(to bottom,rgba(255, 255, 255) ,rgba(255, 255, 255, 0));
+    margin: 0 auto; 
+    text-align: center; 
+}
+#contact .container h1{
+    font-size: 5vh;
+    font-weight: 700;
+    color: var(--violet-color);
+}
+#contact .container h2{
+    font-size: 2vh;
+    font-weight: 700;
+    color: var(--violet-color);
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    border: 1px solid var(--violet-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    width: 70%;
+}
+#contact input{
+    border-radius: 20vh;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    color: var(--violet-color);
+}
+
+/*NAISSAN00CE*/
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    /* Section Naissance */
+    #naissance {
+        padding: 50px 0;
+        background-color: #f1f1f1;
+    }
+
+    .naissance-item {
+        text-align: center;
+    }
+
+    /* Section Hero Vengeur */
+    #hero-vengeur {
+        padding: 50px 0;
+    }
+
+    .hero-item {
+        text-align: center;
+    }
+
+    /* Section Hero Protecteur */
+    #hero-protecteur {
+        padding: 50px 0;
+        background-color: #f1f1f1;
+    }
+
+    .protecteur {
+        text-align: center;
+    }
+
+    /* Article T'Challa */
+    #formulaire-challa {
+        padding: 50px 0;
+        display: flex;
+        background-color: var(--white-color);
+        border: 1px solid var(--white-color);
+        border-radius: 30px;
+        width: 40%;
+    }
+
+    .image-challa {
+        position: absolute;
+
+    }
+
+    .image-challa img {
+        max-width: 100%;
+    }
+
+    .header-challa {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header-challa h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .header-challa label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .header-challa span {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+/*footer*/
+
+    #footer {
+        background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .icon-footer img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .name-footer h2 {
+        font-size: 18px;
+    }
+
+    .name-footer a {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .title h2 {
+        font-size: 18px;
+    }
+
+    .social-footer img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .pieds-page {
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+
+
+
+   
