@@ -13,7 +13,10 @@ body{
     background: linear-gradient(80deg, var(--blue-color),var(--black-color));
     padding: 0;
 }
-
+@font-face {
+    font-family:"WakandaForever-Regular";
+    src: url(../IllustrationsLogo/profil/WakandaForever-Regular.ttf);
+}
 :root{
     --white-color:#FFFFFF;
     --black-color:#000000;
