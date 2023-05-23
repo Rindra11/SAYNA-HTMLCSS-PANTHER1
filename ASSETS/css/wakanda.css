@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(80deg, var(--blue-color),var(--black-color));
+    background: linear-gradient(70deg, var(--blue-color),var(--black-color));
     padding: 0;
 }
 @font-face {
@@ -54,4 +54,52 @@ ul{
 }
 li{
     list-style: none;
+}
+/*NAVBAR WAKANDA*/
+.navbar .navbar-wakanda h2{
+    font-family:"WakandaForever-Regular";
+}
+
+
+
+
+/*footer*/
+
+#footer {
+    background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-footer img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.name-footer h2 {
+    font-size: 18px;
+}
+
+.name-footer a {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.title h2 {
+    font-size: 18px;
+}
+
+.social-footer img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.pieds-page {
+    margin-top: 100px;
+    justify-content: center;
 }
