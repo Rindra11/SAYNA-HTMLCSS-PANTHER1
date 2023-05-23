@@ -197,46 +197,38 @@ li{
 }
 
 /*NAISSAN00CE*/
+h1, h2, h3 {
+    text-align: center;
+}
+p {      
+     margin-bottom: 20px;
+}/* Section Naissance */
+#naissance {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+.naissance-item {
+    text-align: center;
+}
+/* Section Hero Vengeur */
+#hero-vengeur {
+    padding: 50px 0;
+}
+.hero-item {
+    text-align: center;
+}
+/* Section Hero Protecteur */
+#hero-protecteur {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
 
-    h1, h2, h3 {
-        text-align: center;
-    }
+.protecteur {
+    text-align: center;
+}
 
-    p {
-        margin-bottom: 20px;
-    }
-
-    /* Section Naissance */
-    #naissance {
-        padding: 50px 0;
-        background-color: #f1f1f1;
-    }
-
-    .naissance-item {
-        text-align: center;
-    }
-
-    /* Section Hero Vengeur */
-    #hero-vengeur {
-        padding: 50px 0;
-    }
-
-    .hero-item {
-        text-align: center;
-    }
-
-    /* Section Hero Protecteur */
-    #hero-protecteur {
-        padding: 50px 0;
-        background-color: #f1f1f1;
-    }
-
-    .protecteur {
-        text-align: center;
-    }
-
-    /* Article T'Challa */
-    #formulaire-challa {
+/* Article T'Challa */
+#formulaire-challa {
         padding: 50px 0;
         display: flex;
         background-color: var(--white-color);
