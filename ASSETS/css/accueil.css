@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(80deg, var(--blue-color),var(--black-color));
+}
+
+:root{
+    --white-color:#FFFFFF;
+    --black-color:#000000;
+    --primary-color:#F2CEF2;
+    --text-color:#9E91B7;
+    --pink-color:#DF99F2;
+    --violet-color:#3D2DA6;
+    --blue-color:#0b172e;
+    --font-color:#07338C;
+}
+
+/*container*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    padding: 0 12%;
+}
+
+/*header nav and logo*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 3.5px var(--white-color) solid;
+    padding: 30px 0;
+}
+a{
+    color: var(--white-color);
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+
+/*hero-panther*/
+.hero-panther{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.hero-text{
+    padding-top: 20vh;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.hero-text h2{
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0 0 30px;
+}
+.hero-text p{
+    font-size: 13px;
+    color: var(--white-color);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.hero-text a{
+    color: var(--white-color);
+}
+.hero-panther-image img{
+     width: 150vh;
+    height: auto;
+}
+/*reseaux sociaux icons*/
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    color: var(--text-color);   
+}
+.scroll .social{
+    margin-top: 15px;
+    transition: all .50s ease;
+}
+.scroll .social:hover{
+    color: var(--white-color);
+    transform: translateY(-5px);
+}
+
+/*section multimedia killmonger and okoye */
+.container-multimedia{
+    display: flex;
+    width: 60%;
+    margin: 40px;
+    justify-content: space-between; 
+}
+.slider-content{
+    padding: 15px;
+    background: linear-gradient(80deg,var(--font-color),var(--blue-color)) ;
+    display: flex;
+    align-items: center;
+}  
+.slider-image img{
+    width: 100%;
+    height: 100%;
+}
+.slider-content {
+    display: flex;
+    align-items: center;
+}
+  
+.slider-text {
+    margin-left: 10px; 
+}
+  
+.slider-text h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: var(--white-color);  
+}
+.slider-text p{
+    font-size: 12px;
+    color: var(--white-color);
+    justify-content: baseline;
+}
+.slider-text span a {
+    font-size: 13px;
+    color: var(--white-color); 
+    text-decoration: none; 
+} 
+.slider-text span a:hover {
+    text-decoration: underline;
+}
+  

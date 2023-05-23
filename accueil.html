@@ -4,62 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ASSETS/css/accueil.css">
     <title>Accueil</title>
 </head>
 <body>
-    <!-----section navbar-->
-    <section>
-        <div class="container">
-            <div class="navbar">
+      <!---header-->
+      <header>
+        <nav class="container">
+            <a href="./accueil.html">
+                <img src="/ASSETS/IllustrationsLogo/Allpages/icon_SAYNA.png" alt="">
+                <img src="/ASSETS/IllustrationsLogo/Allpages/icon_x.png" alt="">
+                <img src="/ASSETS/IllustrationsLogo/Allpages/icon_MARVEL.png" alt="">
+            </a>
                 <ul>
-                    <a href="#accueil">ACCUEIL</a>
-                    <a href="#wakanda">WAKANDA</a>
-                    <a href="#enigme">ENIGME</a>
+                    <li><a href="#accueil">ACCUEIL</a></li>
+                    <li><a href="#wakanda">WAKANDA</a></li>
+                    <li><a href="#enigme">ENIGME</a></li>
                 </ul>
+        </nav>
+      </header>             
+      <!----scroll reseau sociaux-->
+    <div class="scroll">
+        <img class="social" src="./ASSETS/IllustrationsLogo/Allpages/icon_facebook.png" alt="">
+        <img class="social" src="./ASSETS/IllustrationsLogo/Allpages/icon_instagram.png" alt="">
+        <img class="social" src="./ASSETS/IllustrationsLogo/Allpages/icon_twitter.png" alt="">
+        <img class="social" src="./ASSETS/IllustrationsLogo/Allpages/icon_tiktok.png" alt="">
+    </div>
+
+       <!-----section Panhter-->     
+    <section class="hero-panther">
+        <div class="container">
+            <div class="hero-text">
+                <h1>BLACK PANTHER</h1>
+                <h2>WAKANDA FOREVER</h2>
+                <p>En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend 
+                    hommage aux cultures africaine et afro américaine. On y évoque le 
+                    racisme, la colonisation et les violences contre les afro américains.     
+                    Ce film marque tout une génération, c’est 100% africain et c’est parfait .</p>
+                <a href="http://">Voir plus ></a>
             </div>
-        
-              <!---header-->
-        <div class="header">
-            <h1>BLACK PANTHER</h1>
-            <span>WAKANDA FOREVER</span>
-            <p>En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend 
-                hommage aux cultures africaine et afro américaine. On y évoque le 
-                racisme, la colonisation et les violences contre les afro américains.     
-                Ce film marque tout une génération, c’est 100% africain et c’est parfait .</p>
-           
-            <a href="http://">Voir plus</a>
         </div>
-        </div>
+            <div class="hero-panther-image">
+                <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome1.png" alt="">
+            </div>
     </section>  
-    
+
     <!-----section killmonger and okoye-->
     <section id="multimedia">
-        <div class="container">
-            <div class="slider-image-right">
-                <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome2.png" alt="">
+        <div class="container-multimedia">
+            <div class="slider-content">
+                <div class="slider-image">
+                    <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome2.png" alt="">
+                </div>
+                <div class="slider-text">
+                    <h2>KILLMONGER</h2>
+                    <p>La sauvagerie de N'Jadaka alors qu'il servait dans une 
+                        unité d'opérations noires de l'armée américaine lui a 
+                        valu le surnom de Killmonger. D’origine Wakandaise, 
+                        et se sentant abandoné par sa nation, il cherche à 
+                        détroner T’Challa dans une quête vers le pourvoir.</p>
+                    <span><a href="#">Voir plus</a></span>
+                </div>
             </div>
-            <div class="slider-content-right">
-                <h2 class="name">KILLMONGER</h2>
-                <p>La sauvagerie de N'Jadaka alors qu'il servait dans une 
-                    unité d'opérations noires de l'armée américaine lui a 
-                    valu le surnom de Killmonger. D’origine Wakandaise, 
-                    et se sentant abandoné par sa nation, il cherche à 
-                    détroner T’Challa dans une quête vers le pourvoir.</p>
-                <span><a href="#">Voir plus</a></span>
+            <div class="slider-content">
+                <div class="slider-image">
+                    <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome3.png" alt="">
+                </div>
+                <div class="slider-text">
+                    <h2>OKOYE</h2>
+                    <p>Okoye est le général des Dora Milaje (groupe d’élite 
+                        de femmes guerrières) et le chef des forces armées et 
+                        des renseignements wakandais. Témoin du 
+                        couronnement de T'Challa, elle se joint à lui dans de 
+                        nombreuses aventures.</p>
+                </div>
             </div>
-            <div class="slider-image-left">
-                <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome3.png" alt="">
-            </div>
-            <div class="slider-content-left">
-                <h2>OKOYE</h2>
-                <p>Okoye est le général des Dora Milaje (groupe d’élite 
-                    de femmes guerrières) et le chef des forces armées et 
-                    des renseignements wakandais. Témoin du 
-                    couronnement de T'Challa, elle se joint à lui dans de 
-                    nombreuses aventures.</p>
-            </div>
-            <div class="slider-image-left1">
-                <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome4.png" alt="">
+            <div class="slider-content">
+                <div class="slider-image">
+                    <img src="./ASSETS/IllustrationsLogo/Accueil/Pantherhome4.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -194,6 +217,21 @@
     </div>
 </section>
 
-
+<!-----footer-->
+<footer>
+    <div class="container">
+        <div class="icon-footer">
+            <img src="./ASSETS/IllustrationsLogo/Allpages/footer1.png" alt="">
+        </div>
+    <div class="social-footer">
+        <h2>PAGES</h2>
+        <a href="#">A Propos</a>
+        <a href="#">Wakanda</a>
+    </div>
+    <div class="social-footer">
+        
+    </div>
+    </div>
+</footer>
 </body>
 </html>

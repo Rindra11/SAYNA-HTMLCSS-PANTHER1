@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments avec un espace égal entre eux */
+  }
+  
+  .slider-content {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments dans chaque groupe */
+  }
+  
+  .slider-image {
+    margin-right: 10px; /* Marge entre l'image et le paragraphe */
+  }
+  
