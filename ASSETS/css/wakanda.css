@@ -26,8 +26,10 @@ html{
 }
 
 body{
-    background: linear-gradient(70deg, var(--blue-color),var(--black-color));
+    background: linear-gradient(100deg, var(--blue-color),var(--black-color));
     padding: 0;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 81.25%;
 }
 
 :root{
@@ -61,6 +63,7 @@ a{
     font-weight: 500;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
+    font-family: 'BEYNO';
 }
 ul{
     display: flex;
@@ -68,18 +71,69 @@ ul{
 li{
     list-style: none;
 }
+
 /*NAVBAR WAKANDA*/
-.navbar .navbar-wakanda h2{
-    font-family:"WakandaForever-Regular";
+.en-tête .tête-page{
+    background-image: url('../IllustrationsLogo/Wakanda/Pantherwakanda1.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
 }
-
-
-
+.navbar-wakanda {
+    margin-left: 200px;
+    padding-top: 100px;  
+}
+.navbar-wakanda h1 {
+    font-family: 'BEYNO';
+    font-size: 35px;
+    color: var(--pink-color);
+}
+.navbar-wakanda p {
+    text-align: justify;
+    width: 45%;
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: var(--white-color);
+}
+.navbar-wakanda h2 {
+    font-family:"WakandaForever-Regular";
+    font-size: 25px;
+    color: var(--pink-color);
+}
+#sections .wakanda-section{
+    background-image: url('/ASSETS/IllustrationsLogo/Wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+.articles-wakanda{
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 35%;
+    text-align: justify;
+}
+.articles-wakanda h2{
+    color: var(--pink-color);
+    font-family: 'BEYNO';
+    font-size: 12px;
+}
+.articles-wakanda p{
+    color: var(--white-color);
+    font-size: 9px
+}
 
 /*footer*/
 
 #footer {
     background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    margin-top: 50px;
     padding: 20px 0;
     text-align: center;
     display: flex;
@@ -87,9 +141,11 @@ li{
     justify-content: space-between;
 }
 
-.icon-footer img {
-    height: 30px;
-    margin-right: 10px;
+.icon-footer{
+    background-image: url('../IllustrationsLogo/Allpages/footer1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .name-footer h2 {
