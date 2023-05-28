@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'Panthera';
+    src: url(../IllustrationsLogo/profil/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../IllustrationsLogo/profil/BEYNO/BEYNO.ttf);
+}
+
+@font-face {
+    font-family:"WakandaForever-Regular";
+    src: url(../IllustrationsLogo/profil/WakandaForever-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,10 +28,7 @@ body{
     background: linear-gradient(80deg, var(--blue-color),var(--black-color));
     padding: 0;
 }
-@font-face {
-    font-family:"WakandaForever-Regular";
-    src: url(../IllustrationsLogo/profil/WakandaForever-Regular.ttf);
-}
+
 :root{
     --white-color:#FFFFFF;
     --black-color:#000000;
