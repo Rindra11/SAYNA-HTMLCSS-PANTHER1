@@ -214,19 +214,43 @@ h1, h2, h3 {
 }
 p {      
      margin-bottom: 20px;
-}/* Section Naissance */
-#naissance {
-    display: flex;
 }
+
+/* Section Naissance */
 .naissance-item {
-    text-align: center;
+    color: var(--white-color);
+    margin-right: 100%;
+    margin-top: 100px;
+    width: 55%;
+    text-align: justify;
 }
+.naissance-item h1{
+    color: var(--pink-color);
+    font-size: 12px;
+    font-family: 'BEYNO';
+}
+.naissance-item p{
+    font-size: 10px;
+}
+
 /* Section Hero Vengeur */
 #hero-vengeur {
     padding: 50px 0;
 }
 .hero-item {
-    text-align: center;
+    color: var(--white-color);
+    margin-right: 100%;
+    margin-top: 100px;
+    width: 55%;
+    text-align: justify;
+}
+.hero-item h2{
+    color: var(--pink-color);
+    font-size: 12px;
+    font-family: 'BEYNO';
+}
+.hero-item p{
+    font-size: 10px;
 }
 /* Section Hero Protecteur */
 #hero-protecteur {
@@ -234,17 +258,26 @@ p {
 }
 
 .protecteur {
-    text-align: center;
+    color: var(--white-color);
+    margin-right: 100%;
+    margin-top: 100px;
+    width: 55%;
+    text-align: justify;
+}
+.protecteur p{
+    font-size: 10px;
 }
 
 /* Article T'Challa */
 #formulaire-challa {
+        margin-left: 60%;
+        margin-top: -120vh;
         padding: 40px;
         display: flex;
         background-color: var(--white-color);
         border: 1px solid var(--white-color);
         border-radius: 30px;
-        width: 30%;
+        width: 35%;
     }
 
     .image-challa {
@@ -259,6 +292,8 @@ p {
     .header-challa {
         text-align: justify;
         margin-top: 20px;
+        font-size: 10px;
+        color: var(--violet-color);
     }
 
     .header-challa h2 {
@@ -271,11 +306,18 @@ p {
         display: contents;
         margin-bottom: 5px;
         font-weight: bold;
+        font-size: 12px;
     }
 
     .header-challa span {
         display: inline-block;
         margin-left: 10px;
+        font-size: 10px;
+    }
+    .header-challa button{
+        border-radius: 5px;
+        padding: 5px;
+        background-color: var(--violet-color);
     }
 
     /*footer*/ 
