@@ -279,63 +279,63 @@ p {
     }
 
     /*footer*/ 
-    #footer {
-        background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
-        margin-top: 50px;
-        padding: 20px 0;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+#footer {
+    background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .icon-footer{
-        background-image: url('../IllustrationsLogo/Allpages/footer1.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+.icon-footer{
+    background-image: url('../IllustrationsLogo/Allpages/footer1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
-    .name-footer h2 {
-        font-size: 18px;
-    }
+.name-footer h2 {
+    font-size: 15px;
+    color: var(--white-color);
+}
 
-    .name-footer a {
-        display: block;
-        margin-bottom: 5px;
-        color: #333;
-        text-decoration: none;
-    }
-    .title h2 {
-        font-size: 18px;
-    }
-    .social-footer img {
-        height: 30px;
-        margin-right: 10px;
-    }
-    .pieds {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-    } 
-  .pieds p {
+.name-footer a {
+    display: block;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.title h2 {
+    font-size: 18px;
+    color: var(--white-color);
+}
+.social-footer img {
+    height: 30px;
+    margin-right: 10px;
+}
+.pieds {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+} 
+.pieds p {
     font-size: 12px;
     color: var(--white-color);
-  } 
-  .pieds ul {
-    list-style: none;
+} 
+.pieds ul {
     padding: 0;
     margin: 10px 0;
-  } 
-  .pieds li {
+} 
+.pieds li {
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
     font-size: 12px;
     color: var(--white-color);
-  }
-  
+}
+
 
 
 
